@@ -1,0 +1,96 @@
+{
+  "computers": [
+      {
+          "id": 1,
+          "model": "Macbook Pro",
+          "year": 2015
+      },
+      {
+          "id": 2,
+          "model": "Macbook Air",
+          "year": 2010
+      },
+      {
+          "id": 3,
+          "model": "HP Game",
+          "year": 2018
+      },
+      {
+          "id": 4,
+          "model": "Microsoft Surface",
+          "year": 2019
+      }
+  ],
+  "employees": [
+      {
+          "id": 1,
+          "firstName": "Holden",
+          "lastName": "Parker",
+          "computerId": 3, 
+          "age":23,
+          "departmentId":3,
+          "locationId":1
+      },
+      {
+          "id": 2,
+          "firstName": "Kevin",
+          "lastName": "Penny",
+          "computerId": 2, 
+          "age":23,
+          "departmentId":2,
+          "locationId":3
+      },
+      {
+          "id": 3,
+          "firstName": "Willy",
+          "lastName": "Metcalf",
+          "computerId": 1,
+          "age":27,
+          "departmentId":1,
+          "locationId":2
+      },
+      {
+          "id": 4,
+          "firstName": "Namita",
+          "lastName": "Manohar",
+          "computerId": 4, 
+          "age":27,
+          "departmentId":4,
+          "locationId":1
+      }
+  ],
+  "departments":[
+    {
+      "id":1, 
+      "name":"IT"
+    },
+    {
+      "id":2, 
+      "name":"sales"
+    },
+    {
+      "id":3, 
+      "name":"accounting"
+    },
+    {
+      "id":4, 
+      "name":"QA"
+    }
+
+  ],
+  "locations":[
+    {
+      "id":1, 
+      "name":"Nashville"
+    },
+    {
+      "id":2, 
+      "name":"Atlanta"
+    },
+    {
+      "id":3, 
+      "name":"Memphis"
+    }
+  ]
+
+}
